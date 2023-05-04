@@ -5,7 +5,19 @@ SW Expert Academy
 
 git fetch --all
 git reset --hard origin/master
-[[git push 하는 방법]] //저장소 생성 및 연결 $ git init $ git remote add origin [원격저장소 주소] $ git branch -m master main // master branch를 main으로 이름 변경
+[[git push 하는 방법]]
+
+//저장소 생성 및 연결
+
+$ git init
+
+$ git remote add origin
+
+[원격저장소 주소]
+
+$ git branch -m master main
+
+// master branch를 main으로 이름 변경
 
 [파일 업로드] $ git pull (또는 git pull origin [브랜치 이름]) $ git add . $ git commit -m "commit message" $ git push (또는 git push origin [브랜치 이름])
 
